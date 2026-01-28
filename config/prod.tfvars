@@ -8,8 +8,12 @@ virtual_network_subnets = {
     address_prefixes = ["10.2.0.0/24"]
   }
 }
-virtual_machine_sku = "Standard_D4d_v5"
+
+
+virtual_machine_sku = "Standard_B1s"
+
 tags = {
   deployed_by = "terraform"
   environment = "prod"
 }
+
