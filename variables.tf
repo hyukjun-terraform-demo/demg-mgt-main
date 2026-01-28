@@ -86,3 +86,8 @@ variable "virtual_machine_sku" {
 variable "tags" {
   type = map(string)
 }
+
+variable "isdeploy" {
+  type = bool
+  default = false
+}
